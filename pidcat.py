@@ -32,7 +32,7 @@ from platform import win32_ver
 __version__ = '2.1.0+Win10'
 
 win_ver = win32_ver()[0]
-show_colors = (win_ver == '10' or win_ver == '') and sys.stdout.isatty()
+show_colors = (win_ver == '10' or win_ver == '11' or win_ver == '') and sys.stdout.isatty()
 
 LOG_LEVELS = 'VDIWEF'
 LOG_LEVELS_MAP = dict([(LOG_LEVELS[i], i) for i in range(len(LOG_LEVELS))])
