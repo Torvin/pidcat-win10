@@ -53,7 +53,7 @@ To include `adb` and other android tools on your path on OS X / Linux:
 
 Include these lines in your `.bashrc` or `.zshrc`.
 
-On Widnows add `<path to Android SDK>/platform-tools` and `<path to Android SDK>/tools` to your PATH in [System Properties](https://support.microsoft.com/en-sg/help/310519/how-to-manage-environment-variables-in-windows-xp)
+On Windows add `<path to Android SDK>/platform-tools` and `<path to Android SDK>/tools` to your PATH in [System Properties](https://support.microsoft.com/en-sg/help/310519/how-to-manage-environment-variables-in-windows-xp)
 
 *Note:* `<path to Android SDK>` should be absolute and not relative.
 
